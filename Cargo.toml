@@ -8,3 +8,9 @@ edition = "2021"
 [dependencies]
 deno_core = "0.189.0"
 tokio = {version = "1.28.2", features = ["full"]}
+zstd = "0.12.3+zstd.1.5.2"
+lazy_static = "1.4.0"
+
+[build-dependencies]
+deno_core = "0.189.0"
+zstd = "0.12.3+zstd.1.5.2"
