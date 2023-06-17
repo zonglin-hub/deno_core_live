@@ -1,6 +1,5 @@
-use std::{fs, path::Path};
-
 use deno_core::{JsRuntime, RuntimeOptions};
+use std::{fs, path::Path};
 use zstd::encode_all;
 
 const SNAPSHOT_FILE: &str = "snapshot/main.bin";
